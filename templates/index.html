@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Perfil Pessoal</title>
+    <title>Meu Site Pessoal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -44,22 +44,13 @@
             color: #f48fb1; /* Rosa mais forte */
         }
 
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            display: block;
-            margin: 0 auto;
+        .contact-info a {
+            color: #f48fb1; /* Rosa mais forte */
+            text-decoration: none;
         }
 
-        .contact-info {
-            list-style: none;
-            padding: 0;
-        }
-
-        .contact-info li {
-            margin-bottom: 10px;
+        .contact-info a:hover {
+            text-decoration: underline;
         }
 
         footer {
@@ -71,26 +62,16 @@
             bottom: 0;
             width: 100%;
         }
-
-        a {
-            color: #ffffff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Meu Perfil Pessoal</h1>
+        <h1>Bem-vindo ao site com as minhas informações pessoais</h1>
     </header>
 
     <div class="container">
         <section id="perfil">
             <h2>Sobre Mim</h2>
-            <img src="profile.jpg" alt="Foto de Perfil" class="profile-img">
             <p>Olá! Meu nome é Eloá. Sou apaixonada por tecnologia, design e todas as coisas relacionadas à criatividade. Tenho experiência em desenvolvimento web e adoro aprender coisas novas.</p>
         </section>
 
@@ -99,23 +80,31 @@
             <ul>
                 <li>Leitura de livros sobre desenvolvimento pessoal e tecnologia.</li>
                 <li>Prática de yoga e meditação para manter o equilíbrio e a saúde mental.</li>
-                <li>Criação de arte digital e design gráfico.</li>
                 <li>Exploração de novas receitas na cozinha.</li>
             </ul>
         </section>
+
+        <section id="educacao">
+            <h2>Educação</h2>
+            <ul>
+                <li><strong>SENAI PIRACICABA MÁRIO HENRIQUE SIMONSEN</strong> - Cursando o curso de Desenvolvimento de Sistemas (2024-2025)</li>
+                 <li><strong>SESI PIRACICABA CENTRO EDUCACIONAL 165</strong> - Cursando o Ensino Médio (2023-2025)</li>
+            </ul>
+        </section>
+
 
         <section id="contato">
             <h2>Contato</h2>
             <ul class="contact-info">
                 <li>Email: eloalav@gmail.com</li>
                 <li>Telefone: (19) 99662-8540</li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/seu-perfil" target="_blank">linkedin.com/in/seu-perfil</a></li>
+                <li>GitHub: <a href=https://github.com/eloalav target="_blank">github.com/meu-perfil</a></li>
             </ul>
         </section>
     </div>
 
     <footer>
-        <p>&copy; 2024 Meu Perfil Pessoal. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Meu Site Pessoal. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
