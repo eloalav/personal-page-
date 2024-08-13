@@ -1,10 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<title>Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fce4ec; /* Rosa claro */
+            color: #333;
+        }
+
+        header {
+            background-color: #f48fb1; /* Rosa mais forte */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            margin-top: 0;
+            color: #f48fb1; /* Rosa mais forte */
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #f48fb1; /* Rosa mais forte */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-<h1>Minha página pessoal</h1>
+    <header>
+        <h1>Meu Perfil Pessoal</h1>
+    </header>
+
+    <div class="container">
+        <section id="perfil">
+            <h2>Sobre Mim</h2>
+            <img src="profile.jpg" alt="Foto de Perfil" class="profile-img">
+            <p>Olá! Meu nome é [Seu Nome]. Sou apaixonado(a) por tecnologia, design e todas as coisas relacionadas à criatividade. Tenho experiência em desenvolvimento web e adoro aprender coisas novas.</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>Meus Hobbies</h2>
+            <ul>
+                <li>Leitura de livros sobre desenvolvimento pessoal e tecnologia.</li>
+                <li>Prática de yoga e meditação para manter o equilíbrio e a saúde mental.</li>
+                <li>Criação de arte digital e design gráfico.</li>
+                <li>Exploração de novas receitas na cozinha.</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <ul class="contact-info">
+                <li>Email: seuemail@example.com</li>
+                <li>Telefone: (11) 98765-4321</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/seu-perfil" target="_blank">linkedin.com/in/seu-perfil</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Meu Perfil Pessoal. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
